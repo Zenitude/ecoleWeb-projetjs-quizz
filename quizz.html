@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quizz.css">
+    <title>JS n°1 : Quizz</title>
+</head>
+<body>
+    <h1>Quizz de culture générale !</h1>
+
+    <form class="form-quizz">
+        <div class="box-quizz quizz1">  
+            <h2>Qui est l'empereur de France le 2 décembre 1804 ?</h2>
+            <input type="radio" id="clovis" name="empereur" value="Clovis" checked><label for="clovis">Clovis</label>
+            <input type="radio" id="lincoln" name="empereur" value="Lincoln"><label for="Abraham Lincoln">Abraham Lincoln</label>
+            <input type="radio" id="bonaparte" name="empereur" value="Bonaparte"><label for="bonaparte">Napoleon Bonaparte</label>
+        </div>
+
+        <div class="box-quizz quizz2">
+            <h2>Quelle est la date d'indépendance des États-Unis ?</h2>
+            <input type="radio" id="juillet" name="independance" value="04071776" checked><label for="juillet">4 juillet 1776</label>
+            <input type="radio" id="avril" name="independance" value="18041856"><label for="avril">18 avril 1856</label>
+            <input type="radio" id="juin" name="independance" value="30061925"><label for="juin">30 juin 1925</label>
+        </div>
+
+        <div class="box-quizz quizz3">
+            <h2>La chute de l'empire Romain se situe en ?</h2>
+            <input type="radio" id="qapjc" name="empire" value="15apJC" checked><label for="qapjc">15 ap. J.-C.</label>
+            <input type="radio" id="tqvqapjc" name="empire" value="395apJC"><label for="tqvqapjc">395 ap. J.-C.</label>
+            <input type="radio" id="scqavjc" name="empire" value="740avJC"><label for="scqavjc">-740 av. J.-C.</label>
+        </div>
+
+        <div class="box-quizz quizz4">
+            <h2>Quelle est la capitale de la Slovénie ?</h2>
+            <input type="radio" id="ljubljana" name="capitale" value="Ljubljana" checked><label for="ljubljana">Ljubljana</label>
+            <input type="radio" id="belgrade" name="capitale" value="Belgrade"><label for="belgrade">Belgrade</label>
+            <input type="radio" id="bratislava" name="capitale" value="Bratislava"><label for="bratislava">Bratislava</label>
+        </div>
+
+        <div class="box-quizz quizz5">
+            <h2>Combien d'habitants compte l'Irelande en 2020 ?</h2>
+            <input type="radio" id="um" name="habitants" value="1.365Million" checked><label for="um">1,365 Million</label>
+            <input type="radio" id="vum" name="habitants" value="21Millions"><label for="vum">21 Millions</label>
+            <input type="radio" id="qm" name="habitants" value="4.9Millions"><label for="qm">4.9 Millions</label>
+        </div>
+
+        <button>Validez vos choix !</button>
+
+        <div class="resultat">
+            <h2 class="titre-resultat"></h2>
+            <p class="faire"></p>
+            <p class="avancement"></p>
+        </div>
+
+    </form>
+
+
+
+    <script src="scripts/quizz.js"></script>
+</body>
+</html>
